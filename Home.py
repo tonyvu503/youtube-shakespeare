@@ -38,7 +38,7 @@ def load_df():
     df = pd.read_csv("data/shakespeare.csv")
     return df
 
-st.title("Semantic   Shakespeare")
+st.title("Semantic   Shakespeare - this is a copy version for studying. Original source: https://github.com/wjbmattingly/youtube-shakespeare")
 # st.image("images/semantic-shakespeare.png")
 st.sidebar.image("images/shakespeare.png")
 st.sidebar.markdown("Developed by [W.J.B. Mattingly](https://www.wjbmattingly.com) using [Streamlit](https://www.streamlit.io) and [txtAI](https://github.com/neuml/txtai)", unsafe_allow_html=True)
